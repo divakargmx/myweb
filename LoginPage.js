@@ -32,7 +32,7 @@ const LoginPage = () => {
       if (response.ok) {
         // Login successful
         // Fetch user data
-        const userDataResponse = await fetch('/auth/me', {
+        const userDataResponse = await fetch('https://x8ki-letl-twmt.n7.xano.io/api:BPMn1_6B/auth/me', {
           method: 'GET',
           headers: {
             Authorization: `Bearer ${accessToken}`, // Add your access token here
